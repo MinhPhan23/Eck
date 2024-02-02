@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fake Tweet
+        </title>
+        <script src="TweetUpdate.js">
+        </script>
+    </head>
+    <body onload=getTweet()>
+        <div id="error">
+            <h1>An error occurs</h1>
+        </div>
+        <div id="login">
+            <label for="usr">Username:</label>
+            <input type="text" id="usr" name="usr">
+            <button type="button" onclick=postLogin()>Log In</button>
+        </div>
+        <div id="makePost">
+            <label for="content">Tweet:</label>
+            <input type="text" id="content" name="content">
+            <button type="button" onclick=postTweet()>Post</button>
+        </div>
+        <div id = tweets>
+            <table>
+                <tr>Nothing is here</tr>
+            </table>
+        </div>
+    </body>
+</html>
