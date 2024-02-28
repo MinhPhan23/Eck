@@ -199,3 +199,7 @@ python3 coordinator [worker1Host:worker1Port] [worker2Host:worker2Port]
     'message' : 'The tweet is get sucessfully'
 }
 ```
+
+# Acknowledgement
+
+The project idea and description was taken from an assignment from my beloved Distributed Computing Instructor Robert Guderian
